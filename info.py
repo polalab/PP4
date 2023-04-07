@@ -10,3 +10,4 @@ class Students:
 
     def sort_bday(self):
         return sorted(self.birthday, key=lambda x: (int(x[1][5:7]), int(x[1][8::])))
+
